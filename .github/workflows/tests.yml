@@ -10,6 +10,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    env:
+      ADMIN_EMAIL: admin@escola.com
+      ADMIN_SENHA: admin123
+      MONGODB_URI: mongodb://127.0.0.1:27017/gestao-de-alunos-test
+
     services:
       mongodb:
         image: mongo:7
@@ -36,5 +41,3 @@ jobs:
 
       - name: Executar testes
         run: npm test
-        env:
-          MONGODB_URI: mongodb://127.0.0.1:27017/gestao-de-alunos-test

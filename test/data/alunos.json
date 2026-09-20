@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Aluno Teste 1",
+    "emailPrefix": "aluno.teste.1",
+    "matriculaPrefix": "900001",
+    "senha": "123456",
+    "trabalho": {
+      "disciplinaId": "disciplina-matematica",
+      "titulo": "Lista de Exercicios 1",
+      "descricao": "Resolucao dos exercicios do capitulo 1."
+    }
+  },
+  {
+    "nome": "Aluno Teste 2",
+    "emailPrefix": "aluno.teste.2",
+    "matriculaPrefix": "900002",
+    "senha": "123456",
+    "trabalho": {
+      "disciplinaId": "disciplina-matematica",
+      "titulo": "Lista de Exercicios 2",
+      "descricao": "Resolucao dos exercicios do capitulo 2."
+    }
+  }
+]
